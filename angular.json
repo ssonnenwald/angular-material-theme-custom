@@ -99,6 +99,12 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://ssonnenwald.github.io/angular-material-theme-custom/"
+          }
         }
       }
     }
