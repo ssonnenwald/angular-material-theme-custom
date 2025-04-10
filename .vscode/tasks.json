@@ -52,18 +52,9 @@
     },
     {
       "label": "stop server",
-      "type": "shell",
       "command": "echo ${input:terminate}",
-      "group": {
-        "kind": "none"
-      },
-      "problemMatcher": [],
-      "isBackground": false,
-      "presentation": {
-        "focus": true,
-        "panel": "dedicated",
-        "close": true
-      }
+      "type": "shell",
+      "problemMatcher": []
     }
   ],
   "inputs": [
